@@ -20,7 +20,13 @@ Tested with:
 
 ## Getting Started
 
-You need [helm client](https://helm.sh/) configured to manage your kubernetes cluster.
+You need [helm client](https://helm.sh/) configured to manage your kubernetes cluster. 
+
+Add the following helm repositories:
+
+```
+helm repo add confluent https://confluentinc.github.io/cp-helm-charts/
+```
 
 In the root of the project get the pnda chart dependencies:
 
