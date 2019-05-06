@@ -22,7 +22,7 @@ Tested with:
 
 You need [helm client](https://helm.sh/) configured to manage your kubernetes cluster. 
 
-Add the following helm repositories:
+Add the following helm repository:
 
 ```
 helm repo add confluent https://confluentinc.github.io/cp-helm-charts/
